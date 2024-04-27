@@ -33,8 +33,9 @@ class Restaurante:
         self._ativo = novo_estado
 
     def receber_avaliacao(self, cliente,avaliacao):
-        avaliacao = Avaliacao(cliente, avaliacao)
-        self._avaliacao.append(avaliacao)
+        if 0 < avaliacao <= 5:
+            avaliacao = Avaliacao(cliente, avaliacao)
+            self._avaliacao.append(avaliacao)
 
 
     
