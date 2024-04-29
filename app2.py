@@ -14,11 +14,13 @@ bebida_suco = Bebida('Suco de Laranja', 4.5, '300ml')
 
 prato_pao = Prato('Pão de Queijo', 3.5, 'Pão de queijo mineiro')
 
-
+restaurante_praca.adicionar_item(bebida_coca)
+restaurante_praca.adicionar_item(prato_pao)
 
 def main():
     #Restaurante.listar_restaurantes()
-    pass
+    restaurante_praca.listar_itens
+    
 
 
 if __name__ == '__main__':
