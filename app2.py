@@ -27,3 +27,8 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+#Criar ambiente virtual: python -m venv venv
+#Ativar ambiente virtual: source venv/bin/activate
+#pip freeze > requirements.txt
+#Instalar dependências: pip install -r requirements.txt
