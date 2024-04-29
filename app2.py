@@ -32,3 +32,4 @@ if __name__ == '__main__':
 #Ativar ambiente virtual: source venv/bin/activate
 #pip freeze > requirements.txt
 #Instalar dependências: pip install -r requirements.txt
+#Desativar ambiente virtual: deactivate
