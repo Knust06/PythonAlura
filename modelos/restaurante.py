@@ -48,9 +48,9 @@ class Restaurante:
         print(f'Cardapio do restaurante {self._nome}\n'.ljust(50, '-'))
         for i, item in enumerate(self._cardapio, start=1):
             if hasattr(item, 'descricao'):
-                mensagem_prato = f'{i} - {item.nome} - R$ {item.preco:.2f} - {item.descricao}'
+                mensagem_prato = f'{i} - {item._nome} - R$ {item._preco:.2f} - {item.descricao}'
                 print(mensagem_prato)
             else:
-                mensagem_bebida = f'{i} - {item.nome} - R$ {item.preco:.2f} - {item.tamanho}'
+                mensagem_bebida = f'{i} - {item._nome} - R$ {item._preco:.2f} - {item.tamanho}'
                 print(mensagem_bebida)
         

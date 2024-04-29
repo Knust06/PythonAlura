@@ -12,8 +12,10 @@ restaurante_praca = Restaurante('Praça','Comida Brasileira')
 bebida_coca = Bebida('Coca-Cola', 5.5, '600ml')
 bebida_suco = Bebida('Suco de Laranja', 4.5, '300ml')
 
-prato_pao = Prato('Pão de Queijo', 3.5, 'Pão de queijo mineiro')
 
+prato_pao = Prato('Pão de Queijo', 3.5, 'Pão de queijo mineiro')
+prato_pao.aplicar_desconto()
+bebida_coca.aplicar_desconto()
 restaurante_praca.adicionar_item(bebida_coca)
 restaurante_praca.adicionar_item(prato_pao)
 
